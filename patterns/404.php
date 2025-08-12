@@ -1,0 +1,31 @@
+<?php
+/**
+ * Title: 404
+ * Slug: quasar/404
+ * Description: A 404 page.
+ * Categories: content
+ * Post Types:
+ * Viewport Width:
+ * Keywords: 404
+ * Inserter: false
+ *
+ * @package quasar
+ */
+
+?>
+
+<!-- wp:group {"tagName":"main","className":"site-main","layout":{"type":"constrained"}} -->
+<main class="wp-block-group site-main">
+	<!-- wp:group {"className":"","style":{"spacing":{"padding":{"top":"var:preset|spacing|5-xl","bottom":"var:preset|spacing|5-xl"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--5-xl);padding-bottom:var(--wp--preset--spacing--5-xl)">
+		<!-- wp:heading {"textAlign":"center","level":1,"className":""} -->
+		<h1 class="wp-block-heading has-text-align-center"><?php echo esc_html_e( '404: Nothing Found', 'quasar' ); ?></h1>
+		<!-- /wp:heading -->
+
+		<!-- wp:paragraph {"align":"center","className":""} -->
+		<p class="has-text-align-center"><?php echo esc_html_e( 'It looks like you stumbled upon a page that does not exist.', 'quasar' ); ?></p>
+		<!-- /wp:paragraph -->
+	</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
